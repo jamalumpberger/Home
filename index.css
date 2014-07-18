@@ -1,0 +1,109 @@
+body {
+	background-color:#F8F8F8
+}
+
+#background {
+	width:1230px;
+	height:400px;
+	margin:auto;
+	background-image:url(images/riverSun.jpg);
+	background-size:1230px 400px;
+	background-repeat:no-repeat;
+	position:relative;
+	z-index:1;
+}
+
+#banner {
+	width:1230px;
+	height:250px;
+	margin:auto;
+	background:url(images/banner.jpg);
+	background-size: 1230px 250px;
+	background-repeat:no-repeat;
+}
+
+nav {
+	width:1230px;
+	font-family: 'Gloria Hallelujah', cursive;	
+	text-align:center;
+}
+
+ul {
+	list-style-type:none;
+	margin:15px;
+	padding:0;
+}
+
+li {
+	display:inline-block;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+a:hover {
+	color:#B0B0B0;
+}
+
+#section1 {
+	width:1230px;
+	height:250px;
+	margin:auto;
+}
+
+#columnLeft {
+	width:398px;
+	height:250px;
+	float:left;
+	margin-right:18px;
+}
+
+#columnMiddle {
+	width:398px;
+	height:250px;
+	float:left;
+}
+
+#columnRight {
+	width:398px;
+	height:250px;
+	float:left;
+	margin-left:18px;
+}
+
+img {
+	width:399px;
+	height:250px;
+	position:relative;
+	z-index:1;
+	opacity:0.5;
+}
+
+img:hover {
+	opacity:1.0;
+}
+
+h3 {
+	position:absolute;
+	color:#F8F8F8;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight:normal;	
+	margin-left:176px;
+	margin-top:116px;
+	font-size:14px;
+	z-index:2;
+	opacity:0.8;
+}
+
+h1 {
+	position:absolute;
+	color:#F8F8F8;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight:normal;	
+	margin-left:560px;
+	margin-top:200px;
+	font-size:14px;
+	z-index:2;
+	opacity:0.8;
+}
