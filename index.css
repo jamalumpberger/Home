@@ -35,7 +35,7 @@ body {
 	width:1230px;
 	height:250px;
 	margin:auto;
-	background:url(images/banner.jpg);
+	background:url(images/eagle.jpg);
 	background-size: 1230px 250px;
 	background-repeat:no-repeat;
 }
@@ -108,7 +108,7 @@ h1 {
 	color:#F8F8F8;
 	font-family: 'Gloria Hallelujah', cursive;
 	font-weight:normal;	
-	font-size:14px;
+	font-size:16px;
 	z-index:2;
 	opacity:0.8;
 	margin-left:10px;
@@ -119,23 +119,71 @@ h3 {
 	color:#F8F8F8;
 	font-family: 'Gloria Hallelujah', cursive;
 	font-weight:normal;	
-	margin-left:176px;
 	margin-top:116px;
-	font-size:14px;
+	font-size:16px;
 	z-index:2;
 	opacity:0.8;
+	text-align:center;
+	width:399px;
 }
 
 .content {
 	width: 1230px;
-	height:915px;
+	height: 915px;
 	margin:auto;
 }
 
 .article {
-	width:611px;
+	width:613px;
 	height:300px;
-	border:1px solid black;
 	margin:auto;
 	display:inline-block;
+	background-color: rgb(242, 242, 242)
+}
+
+#aboutLeft {
+	width:398px;
+	height:250px;
+	float:left;
+	margin-right:18px;
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color: rgb(242, 242, 242);
+	color:black;
+	text-align:center;
+	opacity:0.5;
+}
+
+#aboutMiddle {
+	width:398px;
+	height:250px;
+	float:left;
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color: rgb(242, 242, 242);
+	color:black;
+	text-align:center;
+	opacity:0.5;
+}
+
+#aboutRight {
+	width:398px;
+	height:250px;
+	float:left;
+	margin-left:18px;
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color: rgb(242, 242, 242);
+	color:black;
+	text-align:center;
+	opacity:0.5;
+}
+
+#aboutLeft:hover {
+	opacity:1.0;
+}
+
+#aboutMiddle:hover {
+	opacity:1.0;
+}
+
+#aboutRight:hover {
+	opacity:1.0;
 }
