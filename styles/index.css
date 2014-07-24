@@ -1,5 +1,5 @@
 body {
-	background-color:#F8F8F8
+	background-color:#F0F0F0
 }
 
 #background {
@@ -11,6 +11,7 @@ body {
 	background-repeat:no-repeat;
 	position:relative;
 	z-index:1;
+	box-shadow:5px 5px 5px #888888;
 }
 
 #banner1 {
@@ -20,6 +21,7 @@ body {
 	background:url(../images/banner.jpg);
 	background-size: 1091px 250px;
 	background-repeat:no-repeat;
+	box-shadow:5px 5px 5px #888888;
 }
 
 #banner2 {
@@ -29,6 +31,7 @@ body {
 	background:url(../images/hands.jpg);
 	background-size: 1230px 250px;
 	background-repeat:no-repeat;
+	box-shadow:5px 5px 5px #888888;
 }
 
 #banner3 {
@@ -38,11 +41,12 @@ body {
 	background:url(../images/eagle.jpg);
 	background-size: 1230px 250px;
 	background-repeat:no-repeat;
+	box-shadow:5px 5px 5px #888888;
 }
 
 nav {
 	margin:auto;
-	width:1230px;
+	width:1091px;
 	font-family: 'Gloria Hallelujah', cursive;	
 	text-align:center;
 }
@@ -97,6 +101,7 @@ img {
 	position:relative;
 	z-index:1;
 	opacity:0.5;
+	box-shadow:5px 5px 5px #888888;
 }
 
 img:hover {
@@ -139,20 +144,22 @@ h3 {
 	height:200px;
 	margin-right:20px;
 	display:inline;
-	background-color: rgb(252, 231, 222);
+	background-color: rgb(197, 209, 225);
 	float:left;
 	margin-bottom:20px;
 	opacity:0.5;
+	box-shadow:5px 5px 5px #888888;
 }
 
 #articleMiddle {
 	width:350px;
 	height:200px;
 	display:inline;
-	background-color: rgb(252, 231, 222);
+	background-color: rgb(197, 209, 225);
 	float:left;
 	margin-bottom:20px;
 	opacity:0.5;
+	box-shadow:5px 5px 5px #888888;
 }
 
 #articleRight {
@@ -161,9 +168,10 @@ h3 {
 	margin-left:20px;
 	margin-bottom:20px;
 	display:inline;
-	background-color: rgb(252, 231, 222);
+	background-color: rgb(197, 209, 225);
 	float:left;
 	opacity:0.5;
+	box-shadow:5px 5px 5px #888888;
 }
 
 #articleLeft:hover {
@@ -188,6 +196,7 @@ h3 {
 	color:white;
 	text-align:center;
 	opacity:0.5;
+	box-shadow:5px 5px 5px #888888;
 }
 
 #aboutMiddle {
@@ -199,6 +208,7 @@ h3 {
 	color:white;
 	text-align:center;
 	opacity:0.5;
+	box-shadow:5px 5px 5px #888888;
 }
 
 #aboutRight {
@@ -211,6 +221,7 @@ h3 {
 	color:white;
 	text-align:center;
 	opacity:0.5;
+	box-shadow:5px 5px 5px #888888;
 }
 
 #aboutLeft:hover {
